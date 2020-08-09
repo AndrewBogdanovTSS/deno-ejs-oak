@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Course goals</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<h2><%= title %></h2>
+<div id="add-goal-form">
+    <form action="/add-goal" method="post">
+        <input type="text" name="new-goal">
+        <button type="submit">Add Goal</button>
+    </form>
+</div>
+
+<ul>
+    <% for (let i = 0; i < goals.length; i++ ) { %>
+        <li><%= goals[i].name %></li>
+    <% } %>
+</ul>
+</body>
+</html>
