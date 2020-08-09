@@ -1,5 +1,5 @@
 # deno-ejs-oak
-An example of how to use Deno with Oak and ejs template
+An example of how to use Deno with Oak and ejs templates
 
 # How to start
 If you want to use live reload feature - install denon with: 
