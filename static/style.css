@@ -82,3 +82,18 @@ ul li {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
     border-radius: 10px;
 }
+
+ul li a {
+    color: #8a0346;
+}
+
+#goal {
+    margin: 2rem auto;
+    padding: 2rem;
+    width: 90%;
+    max-width: 40rem;
+    text-align: center;
+    font-size: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+}

@@ -6,5 +6,12 @@
       "desc": "run my app.ts file",
       "allow": ["net", "read"]
     }
+  },
+  "watcher": {
+    "interval": 350,
+    "exts": ["js", "jsx", "ts", "tsx", "json", "ejs", "css"],
+    "match": ["*.*"],
+    "skip": ["*/.git/*"],
+    "legacy": false
   }
 }

@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Course goals</title>
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
 <h2><%= title %></h2>
 <div id="add-goal-form">
@@ -18,7 +19,7 @@
 
 <ul>
     <% for (let i = 0; i < goals.length; i++ ) { %>
-        <li><%= goals[i].name %></li>
+        <li><a href="/goal/<%= goals[i].id %>"><%= goals[i].name %></a></li>
     <% } %>
 </ul>
 </body>
